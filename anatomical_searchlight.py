@@ -23,10 +23,13 @@ if kernel!='sensory_rsa' and kernel!='semantic_decoding':
 
 if bcvarname=='alexnet':
     bcvarname='rsm/alex_fc6_rsm.npy'
+    bcvar=np.load(bcvarname)
 elif bcvarname=='kellnet':
     bcvarname='rsm/kell_conv4_W_rsm.npy'
+    bcvar=np.load(bcvarname)
 else:
     bcvarname='rsm/avg_100dim_wordvec_mat_Sep12.npz'
+    bcvar=np.load(bcvarname)['vecs']
 else:
     print("Invalid label or rsm")
     sys.exit(1) 
@@ -44,7 +47,7 @@ data = nii.get_data()
 mask=nib.load("3mm_mask.nii.gz").get_data()
 
 
-bcvar=np.load(bcvarname)
+
 
 
 
