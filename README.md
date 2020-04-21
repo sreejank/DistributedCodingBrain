@@ -1,5 +1,6 @@
 # DistributedCodingBrain
-Code for my upcoming paper "Distributed Coding of Models and Features in the Human Brain" (in submission)
+Code for my upcoming paper "Searching through functional space reveals distributed visual,
+auditory, and semantic coding in the human brain" (in submission)
 
 Instructions for use of the new method:
 
