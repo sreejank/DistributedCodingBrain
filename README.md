@@ -1,6 +1,6 @@
 # DistributedCodingBrain
 Code for my upcoming paper "Searching through functional space reveals distributed visual,
-auditory, and semantic coding in the human brain" (in submission)
+auditory, and semantic coding in the human brain" (under review; preprint: https://www.biorxiv.org/content/10.1101/2020.04.20.052175v1)
 
 Instructions for use of the new method:
 
